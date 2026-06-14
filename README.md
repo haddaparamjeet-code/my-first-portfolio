@@ -15,7 +15,7 @@ Passionate about building web apps and learning new technologies.
 (Soon adding real projects here)
 
 ## Contact
-- Email: [your@email.com]
+- Email: haddaparamjeet@gmail.com
 - Open to freelance work
 
 ---
