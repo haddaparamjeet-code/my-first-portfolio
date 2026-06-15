@@ -1,7 +1,7 @@
 # my-first-portfolio
 My learning projects and portfolio
 
-# Paramjeet Singh - Aspiring Full Stack Developer
+# Paramjeet - Aspiring Full Stack Developer
 
 Hi, I'm Paramjeet 👋  
 Diploma in Computer Engineering from CR Polytechnic  
