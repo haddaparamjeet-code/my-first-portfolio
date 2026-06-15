@@ -7,20 +7,34 @@
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body { font-family: Arial, sans-serif; line-height: 1.6; background: linear-gradient(135deg, #f5f7fa, #c3cfe2); color: #333; }
-    header { background: #007bff; color: white; text-align: center; padding: 60px 20px; }
-    h1 { font-size: 2.8rem; }
-    h2 { color: #007bff; margin: 30px 0 15px; text-align: center; }
+    header { 
+      background: #007bff; 
+      color: white; 
+      text-align: center; 
+      padding: 40px 20px; 
+    }
+    .profile-img {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      border: 6px solid white;
+      margin-bottom: 20px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    }
+    h1 { font-size: 2.6rem; margin-bottom: 10px; }
+    h2 { color: #007bff; margin: 35px 0 15px; text-align: center; }
     .container { max-width: 900px; margin: 0 auto; padding: 20px; }
-    .section { background: white; margin: 20px 0; padding: 30px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+    .section { background: white; margin: 20px 0; padding: 30px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
     ul { list-style: none; }
-    li { padding: 8px 0; }
-    .btn { display: inline-block; background: #007bff; color: white; padding: 12px 25px; margin: 10px; text-decoration: none; border-radius: 5px; font-weight: bold; }
+    li { padding: 10px 0; font-size: 1.1rem; }
+    .btn { display: inline-block; background: #007bff; color: white; padding: 12px 25px; margin: 10px; text-decoration: none; border-radius: 6px; font-weight: bold; }
     .btn:hover { background: #0056b3; }
-    footer { text-align: center; padding: 20px; margin-top: 30px; }
+    footer { text-align: center; padding: 25px; margin-top: 30px; color: #666; }
   </style>
 </head>
 <body>
   <header>
+    <img src="profile.jpg" alt="Paramjeet Hadda" class="profile-img">
     <h1>Hi, I'm Paramjeet Hadda 👋</h1>
     <p>Diploma in Computer Engineering | Aspiring Full Stack Developer</p>
   </header>
@@ -51,9 +65,7 @@
     <div class="section">
       <h2>Contact</h2>
       <p>Email: <a href="mailto:haddaparamjeet@gmail.com">haddaparamjeet@gmail.com</a></p>
-      <p>GitHub: <a href="https://github.com/haddaparamjeet-code" target="_blank">github.com/haddaparamjeet-code</a></p>
       <a href="https://github.com/haddaparamjeet-code" class="btn" target="_blank">GitHub Profile</a>
-      <a href="#" class="btn">Hire Me for Freelance</a>
     </div>
   </div>
 
