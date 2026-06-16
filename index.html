@@ -17,7 +17,6 @@
       color: white; 
       text-align: center; 
       padding: 80px 20px 60px; 
-      position: relative;
     }
     .profile-img {
       width: 180px;
@@ -27,12 +26,9 @@
       margin-bottom: 25px;
       box-shadow: 0 8px 25px rgba(0,0,0,0.3);
       object-fit: cover;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
     }
     h1 { font-size: 2.8rem; margin-bottom: 10px; }
-    p { font-size: 1.25rem; opacity: 0.95; }
+    p { font-size: 1.25rem; }
     h2 { color: #007bff; margin: 40px 0 15px; text-align: center; }
     .container { max-width: 900px; margin: 0 auto; padding: 20px; }
     .section { 
@@ -42,8 +38,13 @@
       border-radius: 12px; 
       box-shadow: 0 4px 15px rgba(0,0,0,0.1); 
     }
-    ul { list-style: none; }
-    li { padding: 10px 0; font-size: 1.1rem; }
+    .project-card {
+      background: #f8f9fa;
+      padding: 15px;
+      margin: 15px 0;
+      border-radius: 8px;
+      border-left: 5px solid #007bff;
+    }
     .btn { 
       display: inline-block; 
       background: #007bff; 
@@ -60,7 +61,7 @@
 </head>
 <body>
   <header>
-    <img src="IMG20260613181749.jpg" alt="Paramjeet Hadda" class="profile-img">
+    <img src="IMG20250930131453.jpg" alt="Paramjeet Hadda" class="profile-img">
     <h1>Hi, I'm Paramjeet Hadda 👋</h1>
     <p>Diploma in Computer Engineering | Aspiring Full Stack Developer</p>
   </header>
@@ -68,7 +69,7 @@
   <div class="container">
     <div class="section">
       <h2>About Me</h2>
-      <p>CR Polytechnic se Diploma kiya hai. freeCodeCamp complete kiya. Web development aur apps banane mein interest hai.</p>
+      <p>CR Polytechnic se Diploma kiya hai. freeCodeCamp complete kiya. Web development aur apps banane mein interest hai. Responsible tareeke se apna career build kar raha hoon.</p>
     </div>
 
     <div class="section">
@@ -77,15 +78,26 @@
         <li>✅ HTML5 & CSS3</li>
         <li>✅ JavaScript (learning)</li>
         <li>✅ SQL</li>
-        <li>✅ Responsive Design</li>
+        <li>✅ Responsive Web Design</li>
+        <li>✅ Git & GitHub</li>
         <li>✅ Problem Solving</li>
       </ul>
     </div>
 
     <div class="section">
       <h2>Projects</h2>
-      <p>Abhi projects add kar raha hoon. FreeCodeCamp ke projects yahan aayenge.</p>
-      <p><strong>Coming soon:</strong> Personal Portfolio, Todo App, Simple Business Website</p>
+      
+      <div class="project-card">
+        <h3>1. Personal Portfolio Website</h3>
+        <p>Yehi website jo aap abhi dekh rahe hain. HTML + CSS se banaya.</p>
+        <a href="https://haddaparamjeet-code.github.io/my-first-portfolio/" class="btn" target="_blank">Live Demo</a>
+      </div>
+
+      <div class="project-card">
+        <h3>2. FreeCodeCamp Projects</h3>
+        <p>Survey Form, Tribute Page, aur Product Landing Page banaye hain.</p>
+        <p><strong>Coming soon:</strong> Links add kar raha hoon</p>
+      </div>
     </div>
 
     <div class="section">
